@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 64.873 s <<< FAILURE! - in TestSuite
+registerUserOnDemoQa on registerUserOnDemoQa(SampleTestNGTest)(SampleTestNGTest)  Time elapsed: 44.155 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <input autocapitalize="none" autocomplete="off" autocorrect="off" id="subjectsInput" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="Computer Science" style="box-sizing: content-box; width: 134px; background: 0px center; border: 0px; font-size: inherit; opacity: 1; outline: 0px; padding: 0px; color: inherit;"> is not clickable at point (414, 776). Other element would receive the click: <iframe frameborder="0" src="https://4a2b00b367ef77dc9f7d23e6913fb30e.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html" id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" aria-label="Advertisement" tabindex="0" data-google-container-id="1" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe>
+  (Session info: chrome=122.0.6261.94)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.5.0-21-generic', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7a1a35f75e688dd767a36309339324e2, clickElement {id=f.9FBE386D4EA30EAE22EA179DF2EA98E8.d.F01C1C4B83D3BFC10128EB9275285072.e.20}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.94, chrome: {chromedriverVersion: 122.0.6261.111 (9d4c1072da6..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44389}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:44389/devtoo..., se:cdpVersion: 122.0.6261.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on linux (7a1a35f75e688dd767a36309339324e2)] -> id: subjectsInput]
+Session ID: 7a1a35f75e688dd767a36309339324e2
+	at SampleTestNGTest.registerUserOnDemoQa(SampleTestNGTest.java:56)
+
